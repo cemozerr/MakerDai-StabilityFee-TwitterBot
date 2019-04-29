@@ -1,0 +1,26 @@
+{
+  "name": "stabilityfeebot",
+  "version": "1.0.0",
+  "description": "A twitter bot that publishes an informative tweet everytime Maker DAI stability fee changes",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "firebase": "^6.2.4",
+    "node-fetch": "^2.4.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cemozerr/MakerDai-StabilityFee-TwitterBot.git"
+  },
+  "author": "Cem Ozer (@cemozer_)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cemozerr/MakerDai-StabilityFee-TwitterBot/issues"
+  },
+  "homepage": "https://github.com/cemozerr/MakerDai-StabilityFee-TwitterBot#readme"
+}

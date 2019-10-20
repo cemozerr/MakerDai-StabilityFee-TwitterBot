@@ -37,7 +37,7 @@ async function main(){
 		lastQueriedBlock + '&toBlock=' + currentBlock +
 		'latest&address=0xf2c5369cffb8ea6284452b0326e326dbfdcb867c&'+
 		'topic0=0x69fe0e2d00000000000000000000000000000000000000000000000000000000&apikey='
-		+ process.env.ETHERSCAN_APIKEY;
+		+ process.env.ETHERSCAN_API_KEY;
 	let events = await getRequest(queryString);
 
 

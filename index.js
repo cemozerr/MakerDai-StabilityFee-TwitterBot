@@ -85,7 +85,7 @@ function round(value, precision) {
 function postFeeOnTwitter(fee, txHash){
 	twitterClient.post(
 		'statuses/update',
-		{ status: '⚠️  DAI stability fee is now at ' + fee + '%.  ⚠️' + '\n http://etherscan.io/tx/' + txHash}, 
+		{ status: '⚠️  SAI stability fee is now at ' + fee + '%.  ⚠️' + '\n http://etherscan.io/tx/' + txHash}, 
 		function(error, tweet, response) {
 			console.log(error);
 			console.log(tweet);
